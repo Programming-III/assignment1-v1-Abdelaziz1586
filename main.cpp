@@ -139,6 +139,8 @@ int main() {
 
     cout << endl;
 
+    cout << "Visitor Info:" << endl << endl;
+
     visitor->displayInfo();
 
     delete enclosure;
