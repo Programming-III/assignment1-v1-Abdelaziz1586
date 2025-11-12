@@ -12,7 +12,7 @@ public:
     Animal(string name, int age, bool isHungry);
 
     virtual void display() {
-        cout << name << "(Age: " << age << ", " << (isHungry ? "Hungry" : "Not Hungry") << ")" << endl;
+        cout << name << " (Age: " << age << ", " << (isHungry ? "Hungry" : "Not Hungry") << ")" << endl;
     }
 
     void feed();
